@@ -1,0 +1,29 @@
+{
+  "target_repo": {
+    "branch": "smoke-test",
+    "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-python-archive",
+    "folder": "preview"
+  },
+  "packages": [
+  ],
+  "required_packages": [
+    {
+      "install_type": "pypi",
+      "name": "azure-mgmt-core"
+    },
+    {
+      "version": "12.6.0b1",
+      "name": "azure-storage-blob",
+      "install_type": "pypi"
+    },
+    {
+      "install_type": "pypi",
+      "name": "azure-core"
+    },
+    {
+      "install_type": "pypi",
+      "name": "aiohttp"
+    }
+  ],
+  "run_post_toc_script": false
+}
