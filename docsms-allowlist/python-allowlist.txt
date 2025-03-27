@@ -1,0 +1,10 @@
+^ci-configs/
+^docs-ref-autogen/
+^docs-ref-mapping/
+^docs-ref-services/
+^metadata/
+^previous/docs-ref-autogen/
+^preview/docs-ref-autogen/
+^xrefmap\.yml
+^docsms-allowlist/
+docfx.json
