@@ -63,11 +63,11 @@
     "groups": {
       "previous": {
         "dest": "previous",
-        "moniker_range": "azure-python-previous"
+        "moniker_range": "azure-python-archive-previous"
       },
       "all": {
         "dest": "all",
-        "moniker_range": "azure-python-preview || azure-python || azure-python-previous"
+        "moniker_range": "azure-python-archive-previous"
       }
     },
     "overwrite": [],
@@ -102,7 +102,7 @@
     "fileMetadata": {
       "monikers": {
         "docs-ref-services/legacy/**": [
-          "azure-python-previous"
+          "azure-python-archive-previous"
         ]
       },
       "author": {
