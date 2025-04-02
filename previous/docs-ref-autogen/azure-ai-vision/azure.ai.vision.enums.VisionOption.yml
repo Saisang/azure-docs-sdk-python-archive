@@ -1,0 +1,6 @@
+### YamlMime:PythonEnum
+uid: azure.ai.vision.enums.VisionOption
+name: VisionOption
+fullName: azure.ai.vision.enums.VisionOption
+summary: Defines the vision options base class. Not Implemented.
+module: azure.ai.vision.enums

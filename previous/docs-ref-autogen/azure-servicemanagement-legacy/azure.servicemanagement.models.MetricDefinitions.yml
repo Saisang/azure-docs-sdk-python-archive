@@ -1,0 +1,7 @@
+### YamlMime:PythonClass
+uid: azure.servicemanagement.models.MetricDefinitions
+name: MetricDefinitions
+fullName: azure.servicemanagement.models.MetricDefinitions
+module: azure.servicemanagement.models
+constructor:
+  syntax: MetricDefinitions()

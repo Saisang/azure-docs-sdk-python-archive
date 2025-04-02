@@ -1,0 +1,7 @@
+### YamlMime:PythonClass
+uid: azure.servicemanagement.models.Components
+name: Components
+fullName: azure.servicemanagement.models.Components
+module: azure.servicemanagement.models
+constructor:
+  syntax: Components()

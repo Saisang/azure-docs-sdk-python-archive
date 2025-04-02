@@ -1,0 +1,7 @@
+### YamlMime:PythonClass
+uid: azure.servicemanagement.models.PublishData
+name: PublishData
+fullName: azure.servicemanagement.models.PublishData
+module: azure.servicemanagement.models
+constructor:
+  syntax: PublishData()

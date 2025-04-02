@@ -1,0 +1,7 @@
+### YamlMime:PythonClass
+uid: azure.servicemanagement.models.Location
+name: Location
+fullName: azure.servicemanagement.models.Location
+module: azure.servicemanagement.models
+constructor:
+  syntax: Location()

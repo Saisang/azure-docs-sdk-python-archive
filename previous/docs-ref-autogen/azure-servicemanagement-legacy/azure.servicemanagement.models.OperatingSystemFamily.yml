@@ -1,0 +1,7 @@
+### YamlMime:PythonClass
+uid: azure.servicemanagement.models.OperatingSystemFamily
+name: OperatingSystemFamily
+fullName: azure.servicemanagement.models.OperatingSystemFamily
+module: azure.servicemanagement.models
+constructor:
+  syntax: OperatingSystemFamily()
