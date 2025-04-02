@@ -1,7 +1,7 @@
 {
   "target_repo": {
     "branch": "smoke-test",
-    "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-python",
+    "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-python-archive",
     "folder": "previous"
   },
   "packages": [
