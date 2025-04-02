@@ -12,7 +12,7 @@
         href: ~/docs-ref-services/{moniker}/mgmt-advisor-readme.md
         children:
         - azure.mgmt.advisor
-  - name: Agrifood
+  - name: AgriFood
     href: ~/docs-ref-services/{moniker}/agrifood.md
     landingPageType: Service
     items:
@@ -942,6 +942,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-dnsresolver-readme.md
         children:
         - azure.mgmt.dnsresolver
+  - name: Durabletask
+    href: ~/docs-ref-services/{moniker}/durabletask.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Durabletask
+        href: ~/docs-ref-services/{moniker}/mgmt-durabletask-readme.md
+        children:
+        - azure.mgmt.durabletask
   - name: Dynatrace
     href: ~/docs-ref-services/{moniker}/dynatrace.md
     landingPageType: Service
@@ -2719,4 +2729,3 @@
       landingPageType: Service
       children:
       - '**'
-
