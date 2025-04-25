@@ -1,0 +1,7 @@
+### YamlMime:PythonClass
+uid: azure.servicemanagement.models.VirtualIPs
+name: VirtualIPs
+fullName: azure.servicemanagement.models.VirtualIPs
+module: azure.servicemanagement.models
+constructor:
+  syntax: VirtualIPs()
