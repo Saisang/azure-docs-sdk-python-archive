@@ -51,20 +51,6 @@ functions:
   parameters:
   - name: filename
     isRequired: true
-- uid: azure.datalake.store.multithread.merge_chunks
-  name: merge_chunks
-  signature: merge_chunks(adlfs, outfile, files, shutdown_event=None, overwrite=False)
-  parameters:
-  - name: adlfs
-    isRequired: true
-  - name: outfile
-    isRequired: true
-  - name: files
-    isRequired: true
-  - name: shutdown_event
-    defaultValue: None
-  - name: overwrite
-    defaultValue: 'False'
 - uid: azure.datalake.store.multithread.put_chunk
   name: put_chunk
   summary: 'Upload a piece of a local file
