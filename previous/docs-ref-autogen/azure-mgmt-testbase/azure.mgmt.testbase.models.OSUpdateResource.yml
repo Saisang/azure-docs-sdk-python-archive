@@ -45,7 +45,7 @@ constructor:
     defaultValue: None
     types:
     - <xref:str>
-    - <xref:typing.Type>
+    - <xref:azure.mgmt.testbase.models.Type>
   - name: release_version_date
     description: The release version date the tested release (OS update).
     defaultValue: None
@@ -94,7 +94,7 @@ variables:
   name: type_properties_type
   types:
   - <xref:str>
-  - <xref:typing.Type>
+  - <xref:azure.mgmt.testbase.models.Type>
 - description: The release version date the tested release (OS update).
   name: release_version_date
   types:

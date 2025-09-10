@@ -551,6 +551,10 @@ references:
   href: https://docs.python.org/3/library/email.errors.html#email.errors.StartBoundaryNotFoundDefect
   name: StartBoundaryNotFoundDefect
   uid: email.errors.StartBoundaryNotFoundDefect
+- fullName: encodings.CodecRegistryError
+  href: https://docs.python.org/3/library/codecs.html#encodings.CodecRegistryError
+  name: CodecRegistryError
+  uid: encodings.CodecRegistryError
 - fullName: ftplib.error_perm
   href: https://docs.python.org/3/library/ftplib.html#ftplib.error_perm
   name: error_perm
@@ -819,6 +823,10 @@ references:
   href: https://docs.python.org/3/library/shutil.html#shutil.SameFileError
   name: SameFileError
   uid: shutil.SameFileError
+- fullName: shutil.SpecialFileError
+  href: https://docs.python.org/3/library/shutil.html#shutil.SpecialFileError
+  name: SpecialFileError
+  uid: shutil.SpecialFileError
 - fullName: signal.ItimerError
   href: https://docs.python.org/3/library/signal.html#signal.ItimerError
   name: ItimerError
@@ -1187,6 +1195,14 @@ references:
   href: https://docs.python.org/3/library/zoneinfo.html#zoneinfo.ZoneInfoNotFoundError
   name: ZoneInfoNotFoundError
   uid: zoneinfo.ZoneInfoNotFoundError
+- fullName: AttributeError.name
+  href: https://docs.python.org/3/library/exceptions.html#AttributeError.name
+  name: name
+  uid: AttributeError.name
+- fullName: AttributeError.obj
+  href: https://docs.python.org/3/library/exceptions.html#AttributeError.obj
+  name: obj
+  uid: AttributeError.obj
 - fullName: BaseException.__cause__
   href: https://docs.python.org/3/library/exceptions.html#BaseException.__cause__
   name: __cause__
@@ -1231,6 +1247,10 @@ references:
   href: https://docs.python.org/3/library/exceptions.html#ImportError.path
   name: path
   uid: ImportError.path
+- fullName: NameError.name
+  href: https://docs.python.org/3/library/exceptions.html#NameError.name
+  name: name
+  uid: NameError.name
 - fullName: OSError.errno
   href: https://docs.python.org/3/library/exceptions.html#OSError.errno
   name: errno
@@ -2123,10 +2143,6 @@ references:
   href: https://docs.python.org/3/library/doctest.html#doctest.UnexpectedException.test
   name: test
   uid: doctest.UnexpectedException.test
-- fullName: doctest.module.__test__
-  href: https://docs.python.org/3/library/doctest.html#doctest.module.__test__
-  name: __test__
-  uid: doctest.module.__test__
 - fullName: email.charset.Charset.body_encoding
   href: https://docs.python.org/3/library/email.charset.html#email.charset.Charset.body_encoding
   name: body_encoding
@@ -3695,6 +3711,10 @@ references:
   href: https://docs.python.org/3/library/mmap.html#mmap.mmap.closed
   name: closed
   uid: mmap.mmap.closed
+- fullName: module.__all__
+  href: https://docs.python.org/3/reference/simple_stmts.html#module.__all__
+  name: __all__
+  uid: module.__all__
 - fullName: module.__annotations__
   href: https://docs.python.org/3/reference/datamodel.html#module.__annotations__
   name: __annotations__
@@ -3703,6 +3723,10 @@ references:
   href: https://docs.python.org/3/reference/datamodel.html#module.__cached__
   name: __cached__
   uid: module.__cached__
+- fullName: module.__class__
+  href: https://docs.python.org/3/reference/datamodel.html#module.__class__
+  name: __class__
+  uid: module.__class__
 - fullName: module.__dict__
   href: https://docs.python.org/3/reference/datamodel.html#module.__dict__
   name: __dict__
@@ -3735,6 +3759,10 @@ references:
   href: https://docs.python.org/3/reference/datamodel.html#module.__spec__
   name: __spec__
   uid: module.__spec__
+- fullName: module.__test__
+  href: https://docs.python.org/3/library/doctest.html#module.__test__
+  name: __test__
+  uid: module.__test__
 - fullName: modulefinder.ModuleFinder.modules
   href: https://docs.python.org/3/library/modulefinder.html#modulefinder.ModuleFinder.modules
   name: modules
@@ -7571,6 +7599,10 @@ references:
   href: https://docs.python.org/3/library/bdb.html#bdb.Breakpoint.enable
   name: enable
   uid: bdb.Breakpoint.enable
+- fullName: bytearray.append
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.append
+  name: append
+  uid: bytearray.append
 - fullName: bytearray.capitalize
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.capitalize
   name: capitalize
@@ -7579,6 +7611,14 @@ references:
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.center
   name: center
   uid: bytearray.center
+- fullName: bytearray.clear
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.clear
+  name: clear
+  uid: bytearray.clear
+- fullName: bytearray.copy
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.copy
+  name: copy
+  uid: bytearray.copy
 - fullName: bytearray.count
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.count
   name: count
@@ -7595,6 +7635,10 @@ references:
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.expandtabs
   name: expandtabs
   uid: bytearray.expandtabs
+- fullName: bytearray.extend
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.extend
+  name: extend
+  uid: bytearray.extend
 - fullName: bytearray.find
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.find
   name: find
@@ -7611,6 +7655,10 @@ references:
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.index
   name: index
   uid: bytearray.index
+- fullName: bytearray.insert
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.insert
+  name: insert
+  uid: bytearray.insert
 - fullName: bytearray.isalnum
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.isalnum
   name: isalnum
@@ -7667,6 +7715,14 @@ references:
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.partition
   name: partition
   uid: bytearray.partition
+- fullName: bytearray.pop
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.pop
+  name: pop
+  uid: bytearray.pop
+- fullName: bytearray.remove
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.remove
+  name: remove
+  uid: bytearray.remove
 - fullName: bytearray.removeprefix
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.removeprefix
   name: removeprefix
@@ -7679,6 +7735,10 @@ references:
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.replace
   name: replace
   uid: bytearray.replace
+- fullName: bytearray.reverse
+  href: https://docs.python.org/3/library/stdtypes.html#bytearray.reverse
+  name: reverse
+  uid: bytearray.reverse
 - fullName: bytearray.rfind
   href: https://docs.python.org/3/library/stdtypes.html#bytearray.rfind
   name: rfind
@@ -8251,6 +8311,10 @@ references:
   href: https://docs.python.org/3/library/collections.html#collections.OrderedDict.popitem
   name: popitem
   uid: collections.OrderedDict.popitem
+- fullName: collections.abc.ByteString.index
+  href: https://docs.python.org/3/library/collections.abc.html#collections.abc.ByteString.index
+  name: index
+  uid: collections.abc.ByteString.index
 - fullName: collections.defaultdict.__missing__
   href: https://docs.python.org/3/library/collections.html#collections.defaultdict.__missing__
   name: __missing__
@@ -9227,10 +9291,6 @@ references:
   href: https://docs.python.org/3/library/dbm.html#dbm.dumb.dumbdbm.sync
   name: sync
   uid: dbm.dumb.dumbdbm.sync
-- fullName: dbm.gnu.gdbm.clear
-  href: https://docs.python.org/3/library/dbm.html#dbm.gnu.gdbm.clear
-  name: clear
-  uid: dbm.gnu.gdbm.clear
 - fullName: dbm.gnu.gdbm.close
   href: https://docs.python.org/3/library/dbm.html#dbm.gnu.gdbm.close
   name: close
@@ -9251,14 +9311,14 @@ references:
   href: https://docs.python.org/3/library/dbm.html#dbm.gnu.gdbm.sync
   name: sync
   uid: dbm.gnu.gdbm.sync
-- fullName: dbm.ndbm.ndbm.clear
-  href: https://docs.python.org/3/library/dbm.html#dbm.ndbm.ndbm.clear
-  name: clear
-  uid: dbm.ndbm.ndbm.clear
 - fullName: dbm.ndbm.ndbm.close
   href: https://docs.python.org/3/library/dbm.html#dbm.ndbm.ndbm.close
   name: close
   uid: dbm.ndbm.ndbm.close
+- fullName: dbm.sqlite3.sqlite3.close
+  href: https://docs.python.org/3/library/dbm.html#dbm.sqlite3.sqlite3.close
+  name: close
+  uid: dbm.sqlite3.sqlite3.close
 - fullName: decimal.Context.Etiny
   href: https://docs.python.org/3/library/decimal.html#decimal.Context.Etiny
   name: Etiny
@@ -10503,6 +10563,14 @@ references:
   href: https://docs.python.org/3/library/enum.html#enum.Enum.__str__
   name: __str__
   uid: enum.Enum.__str__
+- fullName: enum.Enum._add_alias_
+  href: https://docs.python.org/3/library/enum.html#enum.Enum._add_alias_
+  name: _add_alias_
+  uid: enum.Enum._add_alias_
+- fullName: enum.Enum._add_value_alias_
+  href: https://docs.python.org/3/library/enum.html#enum.Enum._add_value_alias_
+  name: _add_value_alias_
+  uid: enum.Enum._add_value_alias_
 - fullName: enum.Enum._generate_next_value_
   href: https://docs.python.org/3/library/enum.html#enum.Enum._generate_next_value_
   name: _generate_next_value_
@@ -10539,14 +10607,6 @@ references:
   href: https://docs.python.org/3/library/enum.html#enum.EnumType.__reversed__
   name: __reversed__
   uid: enum.EnumType.__reversed__
-- fullName: enum.EnumType._add_alias_
-  href: https://docs.python.org/3/library/enum.html#enum.EnumType._add_alias_
-  name: _add_alias_
-  uid: enum.EnumType._add_alias_
-- fullName: enum.EnumType._add_value_alias_
-  href: https://docs.python.org/3/library/enum.html#enum.EnumType._add_value_alias_
-  name: _add_value_alias_
-  uid: enum.EnumType._add_value_alias_
 - fullName: enum.Flag.__and__
   href: https://docs.python.org/3/library/enum.html#enum.Flag.__and__
   name: __and__
@@ -10823,6 +10883,18 @@ references:
   href: https://docs.python.org/3/library/ftplib.html#ftplib.FTP_TLS.prot_p
   name: prot_p
   uid: ftplib.FTP_TLS.prot_p
+- fullName: functools.lru_cache.cache_clear
+  href: https://docs.python.org/3/library/functools.html#functools.lru_cache.cache_clear
+  name: cache_clear
+  uid: functools.lru_cache.cache_clear
+- fullName: functools.lru_cache.cache_info
+  href: https://docs.python.org/3/library/functools.html#functools.lru_cache.cache_info
+  name: cache_info
+  uid: functools.lru_cache.cache_info
+- fullName: functools.singledispatch.register
+  href: https://docs.python.org/3/library/functools.html#functools.singledispatch.register
+  name: register
+  uid: functools.singledispatch.register
 - fullName: generator.__next__
   href: https://docs.python.org/3/reference/expressions.html#generator.__next__
   name: __next__
@@ -12135,6 +12207,46 @@ references:
   href: https://docs.python.org/3/library/json.html#json.JSONEncoder.iterencode
   name: iterencode
   uid: json.JSONEncoder.iterencode
+- fullName: list.append
+  href: https://docs.python.org/3/library/stdtypes.html#list.append
+  name: append
+  uid: list.append
+- fullName: list.clear
+  href: https://docs.python.org/3/library/stdtypes.html#list.clear
+  name: clear
+  uid: list.clear
+- fullName: list.copy
+  href: https://docs.python.org/3/library/stdtypes.html#list.copy
+  name: copy
+  uid: list.copy
+- fullName: list.count
+  href: https://docs.python.org/3/library/stdtypes.html#list.count
+  name: count
+  uid: list.count
+- fullName: list.extend
+  href: https://docs.python.org/3/library/stdtypes.html#list.extend
+  name: extend
+  uid: list.extend
+- fullName: list.index
+  href: https://docs.python.org/3/library/stdtypes.html#list.index
+  name: index
+  uid: list.index
+- fullName: list.insert
+  href: https://docs.python.org/3/library/stdtypes.html#list.insert
+  name: insert
+  uid: list.insert
+- fullName: list.pop
+  href: https://docs.python.org/3/library/stdtypes.html#list.pop
+  name: pop
+  uid: list.pop
+- fullName: list.remove
+  href: https://docs.python.org/3/library/stdtypes.html#list.remove
+  name: remove
+  uid: list.remove
+- fullName: list.reverse
+  href: https://docs.python.org/3/library/stdtypes.html#list.reverse
+  name: reverse
+  uid: list.reverse
 - fullName: list.sort
   href: https://docs.python.org/3/library/stdtypes.html#list.sort
   name: sort
@@ -13135,6 +13247,14 @@ references:
   href: https://docs.python.org/3/library/mmap.html#mmap.mmap.write_byte
   name: write_byte
   uid: mmap.mmap.write_byte
+- fullName: module.__dir__
+  href: https://docs.python.org/3/reference/datamodel.html#module.__dir__
+  name: __dir__
+  uid: module.__dir__
+- fullName: module.__getattr__
+  href: https://docs.python.org/3/reference/datamodel.html#module.__getattr__
+  name: __getattr__
+  uid: module.__getattr__
 - fullName: modulefinder.ModuleFinder.report
   href: https://docs.python.org/3/library/modulefinder.html#modulefinder.ModuleFinder.report
   name: report
@@ -14491,6 +14611,10 @@ references:
   href: https://docs.python.org/3/library/random.html#random.Random.getstate
   name: getstate
   uid: random.Random.getstate
+- fullName: random.Random.randbytes
+  href: https://docs.python.org/3/library/random.html#random.Random.randbytes
+  name: randbytes
+  uid: random.Random.randbytes
 - fullName: random.Random.random
   href: https://docs.python.org/3/library/random.html#random.Random.random
   name: random
@@ -14503,6 +14627,14 @@ references:
   href: https://docs.python.org/3/library/random.html#random.Random.setstate
   name: setstate
   uid: random.Random.setstate
+- fullName: range.count
+  href: https://docs.python.org/3/library/stdtypes.html#range.count
+  name: count
+  uid: range.count
+- fullName: range.index
+  href: https://docs.python.org/3/library/stdtypes.html#range.index
+  name: index
+  uid: range.index
 - fullName: re.Match.__getitem__
   href: https://docs.python.org/3/library/re.html#re.Match.__getitem__
   name: __getitem__
@@ -14723,6 +14855,46 @@ references:
   href: https://docs.python.org/3/library/selectors.html#selectors.KqueueSelector.fileno
   name: fileno
   uid: selectors.KqueueSelector.fileno
+- fullName: sequence.append
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.append
+  name: append
+  uid: sequence.append
+- fullName: sequence.clear
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.clear
+  name: clear
+  uid: sequence.clear
+- fullName: sequence.copy
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.copy
+  name: copy
+  uid: sequence.copy
+- fullName: sequence.count
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.count
+  name: count
+  uid: sequence.count
+- fullName: sequence.extend
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.extend
+  name: extend
+  uid: sequence.extend
+- fullName: sequence.index
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.index
+  name: index
+  uid: sequence.index
+- fullName: sequence.insert
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.insert
+  name: insert
+  uid: sequence.insert
+- fullName: sequence.pop
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.pop
+  name: pop
+  uid: sequence.pop
+- fullName: sequence.remove
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.remove
+  name: remove
+  uid: sequence.remove
+- fullName: sequence.reverse
+  href: https://docs.python.org/3/library/stdtypes.html#sequence.reverse
+  name: reverse
+  uid: sequence.reverse
 - fullName: shelve.Shelf.close
   href: https://docs.python.org/3/library/shelve.html#shelve.Shelf.close
   name: close
@@ -16523,6 +16695,14 @@ references:
   href: https://docs.python.org/3/library/tracemalloc.html#tracemalloc.Traceback.format
   name: format
   uid: tracemalloc.Traceback.format
+- fullName: tuple.count
+  href: https://docs.python.org/3/library/stdtypes.html#tuple.count
+  name: count
+  uid: tuple.count
+- fullName: tuple.index
+  href: https://docs.python.org/3/library/stdtypes.html#tuple.index
+  name: index
+  uid: tuple.index
 - fullName: turtle.Shape.addcomponent
   href: https://docs.python.org/3/library/turtle.html#turtle.Shape.addcomponent
   name: addcomponent
@@ -16919,10 +17099,6 @@ references:
   href: https://docs.python.org/3/library/unittest.html#unittest.TextTestRunner.run
   name: run
   uid: unittest.TextTestRunner.run
-- fullName: unittest.enterModuleContext
-  href: https://docs.python.org/3/library/unittest.html#unittest.enterModuleContext
-  name: enterModuleContext
-  uid: unittest.enterModuleContext
 - fullName: unittest.mock.AsyncMock.assert_any_await
   href: https://docs.python.org/3/library/unittest.mock.html#unittest.mock.AsyncMock.assert_any_await
   name: assert_any_await
@@ -18539,6 +18715,42 @@ references:
   href: https://docs.python.org/3/library/constants.html#debug__
   name: __debug__
   uid: __debug__
+- fullName: __future__.absolute_import
+  href: https://docs.python.org/3/library/__future__.html#future__.absolute_import
+  name: absolute_import
+  uid: __future__.absolute_import
+- fullName: __future__.annotations
+  href: https://docs.python.org/3/library/__future__.html#future__.annotations
+  name: annotations
+  uid: __future__.annotations
+- fullName: __future__.division
+  href: https://docs.python.org/3/library/__future__.html#future__.division
+  name: division
+  uid: __future__.division
+- fullName: __future__.generator_stop
+  href: https://docs.python.org/3/library/__future__.html#future__.generator_stop
+  name: generator_stop
+  uid: __future__.generator_stop
+- fullName: __future__.generators
+  href: https://docs.python.org/3/library/__future__.html#future__.generators
+  name: generators
+  uid: __future__.generators
+- fullName: __future__.nested_scopes
+  href: https://docs.python.org/3/library/__future__.html#future__.nested_scopes
+  name: nested_scopes
+  uid: __future__.nested_scopes
+- fullName: __future__.print_function
+  href: https://docs.python.org/3/library/__future__.html#future__.print_function
+  name: print_function
+  uid: __future__.print_function
+- fullName: __future__.unicode_literals
+  href: https://docs.python.org/3/library/__future__.html#future__.unicode_literals
+  name: unicode_literals
+  uid: __future__.unicode_literals
+- fullName: __future__.with_statement
+  href: https://docs.python.org/3/library/__future__.html#future__.with_statement
+  name: with_statement
+  uid: __future__.with_statement
 - fullName: _thread.LockType
   href: https://docs.python.org/3/library/_thread.html#thread.LockType
   name: LockType
@@ -25723,6 +25935,10 @@ references:
   href: https://docs.python.org/3/library/email.utils.html#module-email.utils
   name: utils
   uid: email.utils
+- fullName: encodings
+  href: https://docs.python.org/3/library/codecs.html#module-encodings
+  name: encodings
+  uid: encodings
 - fullName: encodings.idna
   href: https://docs.python.org/3/library/codecs.html#module-encodings.idna
   name: idna
@@ -27863,6 +28079,10 @@ references:
   href: https://docs.python.org/3/library/curses.html#curses.textpad.Textbox
   name: Textbox
   uid: curses.textpad.Textbox
+- fullName: curses.window
+  href: https://docs.python.org/3/library/curses.html#curses.window
+  name: window
+  uid: curses.window
 - fullName: dataclasses.Field
   href: https://docs.python.org/3/library/dataclasses.html#dataclasses.Field
   name: Field
@@ -28255,6 +28475,10 @@ references:
   href: https://docs.python.org/3/library/gzip.html#gzip.GzipFile
   name: GzipFile
   uid: gzip.GzipFile
+- fullName: hmac.HMAC
+  href: https://docs.python.org/3/library/hmac.html#hmac.HMAC
+  name: HMAC
+  uid: hmac.HMAC
 - fullName: html.parser.HTMLParser
   href: https://docs.python.org/3/library/html.parser.html#html.parser.HTMLParser
   name: HTMLParser
@@ -31007,6 +31231,18 @@ references:
   href: https://docs.python.org/3/library/codecs.html#codecs.backslashreplace_errors
   name: backslashreplace_errors
   uid: codecs.backslashreplace_errors
+- fullName: codecs.charmap_build
+  href: https://docs.python.org/3/library/codecs.html#codecs.charmap_build
+  name: charmap_build
+  uid: codecs.charmap_build
+- fullName: codecs.codecs.escape_decode
+  href: https://docs.python.org/3/library/codecs.html#codecs.codecs.escape_decode
+  name: escape_decode
+  uid: codecs.codecs.escape_decode
+- fullName: codecs.codecs.escape_encode
+  href: https://docs.python.org/3/library/codecs.html#codecs.codecs.escape_encode
+  name: escape_encode
+  uid: codecs.codecs.escape_encode
 - fullName: codecs.decode
   href: https://docs.python.org/3/library/codecs.html#codecs.decode
   name: decode
@@ -31067,6 +31303,10 @@ references:
   href: https://docs.python.org/3/library/codecs.html#codecs.open
   name: open
   uid: codecs.open
+- fullName: codecs.readbuffer_encode
+  href: https://docs.python.org/3/library/codecs.html#codecs.readbuffer_encode
+  name: readbuffer_encode
+  uid: codecs.readbuffer_encode
 - fullName: codecs.register
   href: https://docs.python.org/3/library/codecs.html#codecs.register
   name: register
@@ -31887,6 +32127,10 @@ references:
   href: https://docs.python.org/3/library/dis.html#dis.disassemble
   name: disassemble
   uid: dis.disassemble
+- fullName: dis.distb
+  href: https://docs.python.org/3/library/dis.html#dis.distb
+  name: distb
+  uid: dis.distb
 - fullName: dis.findlabels
   href: https://docs.python.org/3/library/dis.html#dis.findlabels
   name: findlabels
@@ -32099,6 +32343,14 @@ references:
   href: https://docs.python.org/3/library/codecs.html#encodings.idna.nameprep
   name: nameprep
   uid: encodings.idna.nameprep
+- fullName: encodings.normalize_encoding
+  href: https://docs.python.org/3/library/codecs.html#encodings.normalize_encoding
+  name: normalize_encoding
+  uid: encodings.normalize_encoding
+- fullName: encodings.search_function
+  href: https://docs.python.org/3/library/codecs.html#encodings.search_function
+  name: search_function
+  uid: encodings.search_function
 - fullName: ensurepip.bootstrap
   href: https://docs.python.org/3/library/ensurepip.html#ensurepip.bootstrap
   name: bootstrap
@@ -38563,6 +38815,10 @@ references:
   href: https://docs.python.org/3/library/unittest.html#unittest.doModuleCleanups
   name: doModuleCleanups
   uid: unittest.doModuleCleanups
+- fullName: unittest.enterModuleContext
+  href: https://docs.python.org/3/library/unittest.html#unittest.enterModuleContext
+  name: enterModuleContext
+  uid: unittest.enterModuleContext
 - fullName: unittest.expectedFailure
   href: https://docs.python.org/3/library/unittest.html#unittest.expectedFailure
   name: expectedFailure
@@ -38623,6 +38879,10 @@ references:
   href: https://docs.python.org/3/library/unittest.html#unittest.removeResult
   name: removeResult
   uid: unittest.removeResult
+- fullName: unittest.setUpModule
+  href: https://docs.python.org/3/library/unittest.html#unittest.setUpModule
+  name: setUpModule
+  uid: unittest.setUpModule
 - fullName: unittest.skip
   href: https://docs.python.org/3/library/unittest.html#unittest.skip
   name: skip
@@ -38635,6 +38895,10 @@ references:
   href: https://docs.python.org/3/library/unittest.html#unittest.skipUnless
   name: skipUnless
   uid: unittest.skipUnless
+- fullName: unittest.tearDownModule
+  href: https://docs.python.org/3/library/unittest.html#unittest.tearDownModule
+  name: tearDownModule
+  uid: unittest.tearDownModule
 - fullName: urllib.parse.parse_qs
   href: https://docs.python.org/3/library/urllib.parse.html#urllib.parse.parse_qs
   name: parse_qs

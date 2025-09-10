@@ -27,7 +27,7 @@ constructor:
     description: List of container definitions for the Container App.
     defaultValue: None
     types:
-    - <xref:list>[<xref:typing.Container>]
+    - <xref:list>[<xref:container_apps_api_client.models.Container>]
   - name: scale
     description: Scaling properties for the Container App.
     defaultValue: None

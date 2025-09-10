@@ -98,7 +98,7 @@ constructor:
     defaultValue: None
     types:
     - <xref:str>
-    - <xref:typing.Type>
+    - <xref:container_apps_api_client.models.Type>
 variables:
 - description: 'Minimum consecutive failures for the probe to be considered failed
 
@@ -176,4 +176,4 @@ variables:
   name: type
   types:
   - <xref:str>
-  - <xref:typing.Type>
+  - <xref:container_apps_api_client.models.Type>
