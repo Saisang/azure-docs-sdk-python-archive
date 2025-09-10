@@ -100,7 +100,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - App Platform
+      - name: Resource Management - App Platform (deprecated)
         href: ~/docs-ref-services/{moniker}/mgmt-appplatform-readme.md
         children:
         - azure.mgmt.appplatform
@@ -258,6 +258,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-avs-readme.md
         children:
         - azure.mgmt.avs
+  - name: Azurestackhcivm
+    href: ~/docs-ref-services/{moniker}/azurestackhcivm.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Azurestackhcivm
+        href: ~/docs-ref-services/{moniker}/mgmt-azurestackhcivm-readme.md
+        children:
+        - azure.mgmt.azurestackhcivm
   - name: BareMetal Infrastructure
     href: ~/docs-ref-services/{moniker}/baremetal-infrastructure.md
     landingPageType: Service
@@ -352,6 +362,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-chaos-readme.md
         children:
         - azure.mgmt.chaos
+  - name: Cloudhealth
+    href: ~/docs-ref-services/{moniker}/cloudhealth.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Cloudhealth
+        href: ~/docs-ref-services/{moniker}/mgmt-cloudhealth-readme.md
+        children:
+        - azure.mgmt.cloudhealth
   - name: Cognitive Services
     href: ~/docs-ref-services/{moniker}/cognitive-services.md
     landingPageType: Service
@@ -572,6 +592,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-computeschedule-readme.md
         children:
         - azure.mgmt.computeschedule
+  - name: Computerecommender
+    href: ~/docs-ref-services/{moniker}/computerecommender.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Computerecommender
+        href: ~/docs-ref-services/{moniker}/mgmt-computerecommender-readme.md
+        children:
+        - azure.mgmt.computerecommender
   - name: Confidential Ledger
     href: ~/docs-ref-services/{moniker}/confidential-ledger.md
     landingPageType: Service
@@ -690,6 +720,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-containerservicefleet-readme.md
         children:
         - azure.mgmt.containerservicefleet
+  - name: Containerservicesafeguards
+    href: ~/docs-ref-services/{moniker}/containerservicesafeguards.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Containerservicesafeguards
+        href: ~/docs-ref-services/{moniker}/mgmt-containerservicesafeguards-readme.md
+        children:
+        - azure.mgmt.containerservicesafeguards
   - name: Content Delivery Network
     href: ~/docs-ref-services/{moniker}/content-delivery-network.md
     landingPageType: Service
@@ -882,6 +922,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-defendereasm-readme.md
         children:
         - azure.mgmt.defendereasm
+  - name: Dellstorage
+    href: ~/docs-ref-services/{moniker}/dellstorage.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Dellstorage
+        href: ~/docs-ref-services/{moniker}/mgmt-dellstorage-readme.md
+        children:
+        - azure.mgmt.dellstorage
   - name: Dependencymap
     href: ~/docs-ref-services/{moniker}/dependencymap.md
     landingPageType: Service
@@ -1754,7 +1804,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Media Services
+      - name: Resource Management - Media Services (deprecated)
         href: ~/docs-ref-services/{moniker}/mgmt-media-readme.md
         children:
         - azure.mgmt.media
@@ -1840,10 +1890,14 @@
       href: ~/docs-ref-services/{moniker}/monitor-opentelemetry-exporter-readme.md
       children:
       - azure.monitor.opentelemetry.exporter
-    - name: Monitor Query
+    - name: Monitor Query Logs
       href: ~/docs-ref-services/{moniker}/monitor-query-readme.md
       children:
       - azure.monitor.query
+    - name: Monitor Query Metrics
+      href: ~/docs-ref-services/{moniker}/monitor-querymetrics-readme.md
+      children:
+      - azure.monitor.querymetrics
     - name: Management
       items:
       - name: Resource Management - Monitor
@@ -2048,13 +2102,23 @@
         href: ~/docs-ref-services/{moniker}/mgmt-planetarycomputer-readme.md
         children:
         - azure.mgmt.planetarycomputer
+  - name: Playwright
+    href: ~/docs-ref-services/{moniker}/playwright.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Playwright
+        href: ~/docs-ref-services/{moniker}/mgmt-playwright-readme.md
+        children:
+        - azure.mgmt.playwright
   - name: Playwright Testing
     href: ~/docs-ref-services/{moniker}/playwright-testing.md
     landingPageType: Service
     items:
     - name: Management
       items:
-      - name: Resource Management - Playwright Testing
+      - name: Resource Management - Playwright Testing (deprecated)
         href: ~/docs-ref-services/{moniker}/mgmt-playwrighttesting-readme.md
         children:
         - azure.mgmt.playwrighttesting
@@ -2302,6 +2366,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-resourcemover-readme.md
         children:
         - azure.mgmt.resourcemover
+  - name: Resource-Bicep
+    href: ~/docs-ref-services/{moniker}/resource-bicep.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Bicep
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-bicep-readme.md
+        children:
+        - azure.mgmt.resource.bicep
   - name: Resource-Deployments
     href: ~/docs-ref-services/{moniker}/resource-deployments.md
     landingPageType: Service
@@ -2660,6 +2734,16 @@
     href: ~/docs-ref-services/{moniker}/storage---common.md
     landingPageType: Service
     items: []
+  - name: Storagediscovery
+    href: ~/docs-ref-services/{moniker}/storagediscovery.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Storagediscovery
+        href: ~/docs-ref-services/{moniker}/mgmt-storagediscovery-readme.md
+        children:
+        - azure.mgmt.storagediscovery
   - name: Stream Analytics
     href: ~/docs-ref-services/{moniker}/stream-analytics.md
     landingPageType: Service
@@ -2781,6 +2865,14 @@
     landingPageType: Service
     items:
     - name: unknown
+      href: ~/docs-ref-services/{moniker}/ai-language-conversations-authoring-readme.md
+      children:
+      - azure.ai.language.conversations.authoring
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/ai-voicelive-readme.md
+      children:
+      - azure.ai.voicelive
+    - name: unknown
       href: ~/docs-ref-services/{moniker}/onlineexperimentation-readme.md
       children:
       - azure.onlineexperimentation
@@ -2874,6 +2966,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-workloadmonitor-readme.md
         children:
         - azure.mgmt.workloadmonitor
+  - name: Workloadorchestration
+    href: ~/docs-ref-services/{moniker}/workloadorchestration.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Workloadorchestration
+        href: ~/docs-ref-services/{moniker}/mgmt-workloadorchestration-readme.md
+        children:
+        - azure.mgmt.workloadorchestration
   - name: Workloads
     href: ~/docs-ref-services/{moniker}/workloads.md
     landingPageType: Service

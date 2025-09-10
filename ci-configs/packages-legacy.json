@@ -494,6 +494,20 @@
     },
     {
       "package_info": {
+        "name": "azure-mgmt-appplatform",
+        "install_type": "pypi",
+        "prefer_source_distribution": false,
+        "version": "==10.0.1"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
         "name": "azure-mgmt-azureadb2c",
         "install_type": "pypi",
         "prefer_source_distribution": "true",
@@ -564,7 +578,35 @@
     },
     {
       "package_info": {
+        "name": "azure-mgmt-media",
+        "install_type": "pypi",
+        "prefer_source_distribution": false,
+        "version": "==10.2.1"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
         "name": "azure-mgmt-networkanalytics",
+        "install_type": "pypi",
+        "prefer_source_distribution": "true",
+        "version": "==1.0.0"
+      },
+      "exclude_path": [
+        "test*",
+        "example*",
+        "sample*",
+        "doc*"
+      ]
+    },
+    {
+      "package_info": {
+        "name": "azure-mgmt-playwrighttesting",
         "install_type": "pypi",
         "prefer_source_distribution": "true",
         "version": "==1.0.0"
@@ -862,3 +904,4 @@
   ],
   "run_post_toc_script": false
 }
+
