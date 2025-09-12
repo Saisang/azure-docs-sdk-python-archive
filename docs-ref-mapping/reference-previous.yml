@@ -256,14 +256,6 @@
         href: ~/docs-ref-services/legacy/mgmt-storageimportexport-readme.md
         children:
         - azure.mgmt.storageimportexport
-  - name: Synapse
-    href: ~/docs-ref-services/legacy/synapse.md
-    landingPageType: Service
-    items:
-    - name: Synapse (deprecated)
-      href: ~/docs-ref-services/legacy/synapse-readme.md
-      children:
-      - azure.synapse
   - name: Test Base
     href: ~/docs-ref-services/legacy/test-base.md
     landingPageType: Service
