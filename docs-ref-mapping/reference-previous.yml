@@ -246,10 +246,6 @@
       href: ~/docs-ref-services/legacy/storage-blob-readme.md
       children:
       - azure.storage.blob
-    - name: Storage - Queues
-      href: ~/docs-ref-services/legacy/storage-queue-readme.md
-      children:
-      - azure.storage.queue
     - name: Management
       items:
       - name: Resource Management - Storage Import/Export (deprecated)
