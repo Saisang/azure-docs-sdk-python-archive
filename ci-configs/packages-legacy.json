@@ -1,7 +1,7 @@
 {
   "target_repo": {
-    "branch": "smoke-test",
-    "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-python-archive",
+    "branch": "smoke",
+    "url": "https://github.com/MicrosoftDocs/azure-docs-sdk-python",
     "folder": "previous"
   },
   "packages": [
@@ -815,25 +815,6 @@
           "inherited-members": 1
         }
       }
-    },
-    {
-      "package_info": {
-        "name": "azure-synapse",
-        "install_type": "pypi",
-        "prefer_source_distribution": false,
-        "version": "==0.1.2"
-      },
-      "exclude_path": [
-        "test*",
-        "example*",
-        "sample*",
-        "doc*"
-      ],
-      "extension_config": {
-        "autodoc_default_options": {
-          "inherited-members": 1
-        }
-      }
     }
   ],
   "required_packages": [
@@ -904,4 +885,5 @@
   ],
   "run_post_toc_script": false
 }
+
 
