@@ -62,10 +62,6 @@
       href: ~/docs-ref-services/legacy/cognitiveservices-anomalydetector-readme.md
       children:
       - azure.cognitiveservices.anomalydetector
-    - name: Question Answering (deprecated)
-      href: ~/docs-ref-services/legacy/cognitiveservices-knowledge-qnamaker-readme.md
-      children:
-      - azure.cognitiveservices.knowledge.qnamaker
     - name: Conversational Language Understanding (deprecated)
       href: ~/docs-ref-services/legacy/cognitiveservices-language-luis-readme.md
       children:
